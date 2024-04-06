@@ -1,7 +1,7 @@
 # ULTRABOARD
-ULTRABOARD is a soundboard mobile app which can play sound effects from ULTRAKILL, made in react native and expo.
+ULTRABOARD is a soundboard mobile app which can play sound effects from ULTRAKILL; made in react native and expo.
 
-The app contains a simple folder system to classify sounds, which the user can navigate through by pressing **folder buttons** (some of which show 3D models from the game instead of folder names). At the end of the folder tree are the **sfx buttons** which will play the desired sound when pressed.
+The app contains a simple folder system to classify sounds, which the user can navigate through by pressing **folder buttons** (some of which show 3D models from the game instead of folder names). At the end of the folder tree are the **sfx buttons** which will play the corresponding sound when pressed.
 ***
 # Installation
 To build the .apk:
