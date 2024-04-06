@@ -1,0 +1,158 @@
+{
+    "root":{
+        "UI":{
+
+        },
+    
+        "Ambient":{
+    
+        },
+    
+        "Enemies":{
+            "Husks":{
+                "Filth":[
+
+                ],
+                "Stray":[
+
+                ],
+                "Schism":[
+
+                ],
+                "Soldier":[
+
+                ],
+                "The corpse of King Minos":[
+
+                ],
+                "Stalker":[
+
+                ],
+                "Sisyphean insurrectionist":[
+
+                ],
+                "Ferryman":[
+
+                ]
+            },
+    
+            "Demons":{
+                "Malicious face":[
+
+                ],
+                "Cerberus":[
+
+                ],
+                "Hideous mass":[
+
+                ],
+                "Idol":[
+
+                ],
+                "Leviathan":[
+
+                ],
+                "Mannequin":[
+
+                ],
+                "Minotaur":[
+
+                ]
+            },
+    
+            "Machines":{
+                "Swordsmachine":[
+
+                ],
+                "Drone":[
+
+                ],
+                "Streetcleaner":[
+
+                ],
+                "V2":[
+
+                ],
+                "Mindflayer":[
+
+                ],
+                "Sentry":[
+
+                ],
+                "Gutterman":[
+
+                ],
+                "Guttertank":[
+
+                ],
+                "Earthmover":[
+                    "earthmover roar",
+                    "earthmover hurt"
+                ]
+            },
+    
+            "Angels":{
+                "Gabriel":[
+
+                ],
+                "Virtue":[
+
+                ]
+            },
+    
+            "Prime Souls":{
+                "Minos Prime":[
+
+                ],
+                "Sisyphus Prime":[
+
+                ]
+            },
+    
+            "Other":{
+                "Something wicked":[
+
+                ],
+                "Flesh prison":[
+
+                ],
+                "Mysterious druid knight (& Owl)":[
+
+                ],
+                "Flesh panopticon":[
+
+                ],
+                "Big Johninator":[
+
+                ]
+            }
+        },
+    
+        "Player":{
+            "Weapons":{
+                "Fist":[
+                    "parry"
+                ],
+                "Revolver":[
+                    "coin"
+                ],
+                "Shotgun":[
+
+                ],
+                "Nailgun":[
+
+                ],
+                "Railcannon":[
+
+                ],
+                "Rocket launcher":[
+
+                ]
+            },
+    
+            "Movement":{
+    
+            }
+        }
+    }
+}
