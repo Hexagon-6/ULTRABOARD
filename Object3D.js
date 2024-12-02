@@ -19,7 +19,7 @@ export default function Object3D({object3D}){
         renderer.setSize(gl.drawingBufferWidth, gl.drawingBufferHeight);
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(75, gl.drawingBufferWidth / gl.drawingBufferHeight, 0.1, 1000);
-        camera.position.z = 2;
+        camera.position.z = 20;
         scene.add(object)
 
         object.position.y -= 1;

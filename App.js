@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, ScrollView, Image, ImageBackground} from 'react
 import { LinearGradient } from 'expo-linear-gradient'
 import { Asset } from 'expo-asset';
 import * as FileSystem from 'expo-file-system';
-import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
+import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader';
 import ExpoTHREE from 'expo-three';
 import { TextureLoader } from 'expo-three';
 
@@ -119,11 +119,11 @@ export default function App() {
 			copiedAsset.height = height;
 			copiedAsset.width = width;
 			copiedAsset.localUri = localUri;
-			const texture = textureLoader.load(copiedAsset.localUri);
-			// const texture = textureLoader.load(textureAsset.uri); //this is for testing in expoGO
+			// const texture = textureLoader.load(copiedAsset.localUri);
+			const texture = textureLoader.load(textureAsset.uri); //this is for testing in expoGO
 			const material = new THREE.MeshBasicMaterial({ map: texture });
 
-			const objLoader = new OBJLoader();
+			const objLoader = new FBXLoader();
 			const objAsset = Asset.fromModule(objects3D[object3D].object);
 			if(!objAsset.localUri){
 				console.log('Asset not found - Downloading...');
